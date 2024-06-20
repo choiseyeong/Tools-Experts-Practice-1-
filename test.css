@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 120px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.pinguhi{
+    width: 100px;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 140px;
+    flex-grow: 1;
+}
+
+
+nav ul li{
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: black;
+    text-size: 17px;
+    padding: 7 13px;
+    border-radius: 3px;
+}
+
+a.menu-item:hover {
+    background: #fff6d4;
+    color: black;
+    transition: .5s;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.insta{
+    width: 22px;
+    margin-left: 15px;
+}
+
+//////////////////////////////////////////
+
+
+
+body{
+    font-family: "Noto Sans KR", Arial;
+}
+
+.headline
+{
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: -1px;
+}
+
+section h1{
+    padding-bottom: 30px;
+}
+
+
+.introduce_title{
+    margin-bottom: 70px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 3.5s steps(16) infinite,
+        cursor .5s infinite alternate;
+    border-right: 2px solid;
+}
+
+@keyframes cursor{
+    50% {border-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0%}
+    to {width: 39%}
+}
+
+.video{
+    padding-bottom: 200px;
+}
+
+.introduce
+{
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    width: 750px;
+}
+
+
+.family{
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.divide{
+    padding: 70px;
+}
+
+footer {
+    background-color: #fff6d4;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer_content, .footer_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
